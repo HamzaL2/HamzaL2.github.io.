@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Contact
+    </h1>
+<form action="" method="post"></form>
+    <br>
+    <fieldset>
+        <legend>Uw gegevens:</legend>
+            <label for="Naam:">Naam:</label>
+             <input type="text" name="naam" id="naam" maxlength="20" size="20">
+    <br>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" maxlength="20" size="20">
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Uw mening:</legend>
+         <label for="vraag 1">Hoe heb je kennis gemaakt met I-learning?</label> 
+          <select name="soort" id="soort">
+            <option disabled="disabled">Google</option>
+            <option>Firefox</option>
+            <option>Microsoft Edge</option>
+          </select>
+    <br>
+    <br>
+          <label for="Vraag 2">Wil je later nog een cursus volgen?</label>
+    <br>
+           <input type="radio" name="Ja aanklikken" id="Ja" value="Ja"/>
+           <label for="Ja">Ja</label>
+           <input type="radio" name="Nee aanklikken" id="Nee" value="Nee"/>
+           <label for="Nee">Nee</label>
+           <input type="radio" name="Misschien aanklikken" id="Misschien" value="misschien" checked="checked"/>
+           <label for="Misschien">Misschien</label>
+    <br>
+    <br>
+           <legend>Commentaar:</legend>
+           <textarea name="invul" id="invul" cols="25" rows="2"></textarea>
+    <br>
+           <input type="checkbox"> <label for="schrijf me in">schrijf me in voor onze nieuwsbrieven</label>
+           <input type="submit" name="verzenden" id="vernzenden" value="verstuur">
+    </fieldset>
+</body>
+</html>
